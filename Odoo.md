@@ -18,4 +18,4 @@ Solution:
 
 Solution:
 
-In odoo.conf file add a line, ```xmlrpc_port = {port-number}```.
+In odoo config file add a line, ```xmlrpc_port = {port-number}```.
