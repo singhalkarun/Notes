@@ -1,6 +1,6 @@
 # Building a sample module
 
-Error 1: Unable to import odoo 
+Error: Unable to import odoo 
 
 Context: In file {module_name}/models/models.py
 
@@ -13,3 +13,9 @@ Solution:
 
 3. Add the plugin in **.pylitrc**
   ```load-plugins=pylint_odoo```
+
+Problem: Updating odoo default listening port
+
+Solution:
+
+In odoo.conf file add a line, ```xmlrpc_port = {port-number}```.
